@@ -219,7 +219,7 @@ nav[role="navigation"] .active { color:#fff; background:rgba(255,255,255,0.1); }
 
 /* Category Nav */
 .categories ul { margin-left:0; padding-left:0; }
-.categories li { list-style:none; }
+.categories li { list-style:none; line-height:1em; padding-bottom:0.5em; }
 .categories a { color:#888; }
 .categories a:hover { color:#69CAF3; }
 .categories .active { display:block; color:#fff; padding-left:8px; border-left:4px solid #fff; }
@@ -556,7 +556,7 @@ fieldset.payment-method { border:none; padding:0; }
 .contact-form legend { padding:0; }
 
 /* Thumbnail Images Carousel */
-.list_carousel { position:relative; overflow:auto; }
+.list_carousel { position:relative; }
 .list_carousel ul { margin:0; padding:0; }
 .list_carousel li, .list_carousel p { display:block; float:left; margin:0; padding:0; list-style:none; }
 

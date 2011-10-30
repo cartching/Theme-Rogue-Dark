@@ -1,10 +1,8 @@
 /*
-	Read - http://tjkdesign.com/ez-css/css/base.css
-	Read - http://covertprestige.info/css/base/full.css
+	Read
+	 - http://tjkdesign.com/ez-css/css/base.css
+	 - http://covertprestige.info/css/base/full.css
 */
-
-body { line-height:1.5; }
-img { max-width:100%; } /* Ideal for Responsive Layouts */
 
 /* CONTAINERS */
 body {
@@ -15,6 +13,8 @@ body {
 /* HTML5 blocks - needed in older browsers
 	article, aside, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 */
+
+img { max-width:100%; } /* Ideal for Responsive Layouts */
 
 /* PARAGRAPHS */
 h1, h2, h3, h4 {
@@ -151,19 +151,8 @@ form fieldset div input, form fieldset div textarea { width:98%; }
 form fieldset div textarea { height:120px; }
 form fieldset div input[type="checkbox"], form fieldset div input[type="radio"] { width:auto; display:inline; margin:0 0.5em 0; }
 
-
-/* ------ */
 /* Clear Fix */
 .clear:after, .clearfix:after {content: ".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
 .clear, .clearfix {display: inline-block;}
 html[xmlns] .clear, html[xmlns] .clearfix {display: block;}
 * html .clear, * html .clearfix {height:1%;}
-
-
-/* Headers
-h1, h2, h3, h4, h5, h6 { font-weight:normal; }
-h1 { font-size:2.5em; line-height:1em; margin:0.67em 0; }
-h2 { font-size:1.5em; }
-h3 { font-size:1.25em; margin:0.37em 0; }
-h4 { font-size:1.05em; margin:0.17em 0; }
-*/

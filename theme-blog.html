@@ -181,7 +181,7 @@
 
         <section class="subscribe">
 
-            <form id="form-subscribe" action="{{store.url}}/mailinglist/subscribe" method="post">
+            <form id="form-subscribe" action="{{store.url}}/mailinglist/subscribe" method="post" validate>
                 <input type="hidden" name="returnurl" value="{{page.url}}" />
                 <fieldset>
 
@@ -191,12 +191,12 @@
                                     
                 	<div>
                     <label>Name</label>
-                    <input type="text" name="name" value="" class="text med required" title="Please provide your Name" />
+                    <input type="text" name="name" value="" class="text med required" title="Please provide your Name" placeholder="Your Full Name" autofocus required />
 					</div>
 
 					<div>
                     <label>Email</label>
-                    <input type="email" name="email" value="" class="text med required" title="Please provide your Email" />
+                    <input type="email" name="email" value="" class="text med required" title="Please provide your Email" placeholder="Your Email" required />
     				</div>
 	                <div class="submit">
                     <button type="submit" class="button submit" title="Click to Subscribe">Join</button>
