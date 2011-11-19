@@ -157,17 +157,18 @@
         {{snippets.blog-categories}}
         </section>
         <!-- #ELSE -->
-		<section class="blog-categories">
+        <!-- // Custom Snippet: Blog Categories
+	    <section class="blog-categories">
         
-        	<!-- // Custom Snippet: Blog Categories -->
         
             <h4>Categories</h4>
             <ul class="nav-categories">
-            <!-- #FOREACH {{ post in blog.articles }} -->
-                <li class="{{post.category.slug}}"><a href="{{post.category.url}}">{{post.category | html_encode}}</a></li>
-            <!-- #NEXT -->
+            < ! - - #FOREACH { { post in blog.articles } } - - >
+                <li class="{ { post.category.slug } }"><a href="{ { post.category.url } }">{ { post.category | html_encode } }</a></li>
+            < ! - - #NEXT - - >
             </ul>
         </section>
+        -->
         <!-- #ENDIF -->
 
 
