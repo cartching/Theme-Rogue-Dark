@@ -331,7 +331,7 @@ body.shop #content header[role="page"] { border:none; margin:0; padding:0; }
 #content article.post header .entry-title { clear:both; margin-top:0; }
 #content article.post header .date { color:#555; font-size:0.875em; font-style:italic; float:right; }
 #content article.post figure { margin:0; }
-#content article.post img { height:auto; width:100%; }
+/* #content article.post img { height:auto; width:100%; } */  /* Control Content Sizes */
 #content article.post .entry-content { margin-bottom:30px; }
 #content article.post .entry-content iframe { width:100%; } /* Control Content Sizes */
 #content article.post footer li {
