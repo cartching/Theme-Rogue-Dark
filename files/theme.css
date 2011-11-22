@@ -548,11 +548,13 @@ fieldset.payment-method { border:none; padding:0; }
 /* Contact Page */
 .contact-info { float:left; width:420px; }
 .contact-form {
+/*
     background:#121212;
     border: 1px solid #111;
 	box-shadow:0 2px 2px #111;
-    float: right;
     padding:30px;
+*/
+    float: right;
     width: 400px;
 	margin-bottom:1em;
 }
